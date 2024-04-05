@@ -1,0 +1,69 @@
+.dashboard-main {
+    display: flex;
+        .overview_inright {
+                nav {
+                    background-color: white;
+                    width: 1282px;
+                    height: 80px;
+                    margin-left: 10px;
+                    display: flex;
+                        input {
+                            margin-left: 300px;
+                            width: 318px;
+                            height: 45px;
+                            margin-top: 29px;
+                            font-size: 18px;
+                            padding-left: 20px;
+                            border: none;
+                        }
+                        .modal {
+                            display: flex;
+                            margin-left: 400px;
+                            margin-top: 30px;
+                                .yulduz {
+                                    width: 45px;
+                                    height: 45px;
+                                }
+                                p {
+                                    font-size: 15px;
+                                    font-weight: bold;
+                                    margin-top: 15px;
+                                }
+                                .vector {
+                                    height: 28px;
+                                    margin-top: 10px;
+                                    margin-left: 5px;
+                                }
+                                .javokhir {
+                                    width: 25px;
+                                    height: 25px;
+                                    margin-top: 10px;
+                                    margin-left: 10px;
+                                }
+                        }
+                }
+                h2 {
+                    font-size: 50px;
+                    margin-left: 50px;
+                    margin-top: 60px
+                }
+                span {
+                    color: blue;
+                }
+                .soz {
+                    color: gray;
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-left: 50px;
+                    margin-top: -30px;
+                }
+                .coin {
+                    margin-left: 50px;
+                }
+                section {
+                    margin-top: 20px;
+                    margin-left: 50px;
+                    display: flex;
+                }
+        }
+}

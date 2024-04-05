@@ -1,0 +1,113 @@
+.gift-info-html{
+    overflow-y: hidden;
+    z-index: 11;
+}
+
+.gift-info-wrapper{
+    font-family: "Inria Serif", sans-serif;
+    width: calc(100vw - 250px);
+    height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(81deg, rgba(0,0,0,0.2554271708683473) 0%, rgba(0,0,0,0.4234943977591037) 100%);
+    position: fixed;
+    display: flex;
+    // align-items:center;
+    // justify-content: center;
+    display: none;
+
+
+    .gift-info {
+        width: 764px;
+        height: 565px;
+        background-color: #d9d9d9;
+        position: relative;
+        top: 100px;
+        left: 20%;
+        border-radius:50px;
+
+        .gift-info-top{
+            width: 100%;
+            height: 253px;
+            background-color: #271e4a;
+            border-top-left-radius:50px;
+            border-top-right-radius:50px;
+
+            .gift-info-profil-img{
+                position: relative;
+                top: 35px;
+                display: block;
+                margin: 0 auto;
+                width: 100px;
+                height: 100px;
+                border-radius:1000%;
+            }
+
+            .gift-info-heading{
+                font-size: 22px;
+                letter-spacing: 6px;
+                color:#fff;
+                text-align: center;
+                margin-top: 50px;
+            }
+
+            .gift-info-group-name{
+                font-size: 18px;
+                letter-spacing: 6px;
+                font-weight:bold;
+                color:#ffffff85;
+                text-align: center;
+            }
+        }
+
+        .gift-info-main{
+            display: flex;
+            margin-top: 20px;
+            margin-left: 47px;
+            flex-direction: row;
+            gap: 37px;
+
+            .gift-infomain--left__img{
+                width: 216px;
+                height: 279px;
+            }
+
+            .gift-info-main--right__heading{
+                font-size: 20px;
+                color:$black;
+            }
+
+            .gift-info-main--right__date-time{
+                font-size: 20px;
+                color:#0000007e;
+                margin-bottom: 31px;
+            }
+
+            .gift-info-main--right__checkbox--wrapper{
+                display: flex;
+                align-items:center;
+                flex-direction: row;
+                gap: 12px;
+                margin-bottom: 80px;
+
+                .gift-info__checkbox{
+                    width: 20px;
+                    height: 20px;
+                }
+
+                .gift-info__checkbox--lable{
+                    font-size: 20px;
+                    color:#0000007a;
+                }
+            }
+
+        }
+    }
+}
+
+.gift-info__close-icon{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,43 @@
+
+<div class="add-test--wrapper"> 
+  <div class="add-test"> 
+    <h1 class="add-test__heading">Add Test</h1><img class="add-test__close-btn" onclick="addTestCloseBtn()" src="../assets/images/icons/add-test__close-icon.svg" alt="icon"/>
+    <form action="test">
+      <lable class="add-test__question-label" for="question">Question <br/></lable>
+      <input class="add-test__question" type="text" id="question" placeholder="Enter Question..."/><br/>
+      <lable class="add-test__advice-label" for="advice">Advice <br/></lable>
+      <input class="add-test__advice" type="text" id="advice" placeholder="Enter Advice..."/><br/>
+      <lable class="add-test__select-lable" for="select">Select  Category <br/></lable>
+      <select class="add-test__select" name="test-select"> 
+        <option value="1">Select category </option>
+        <option value="2">Select category2</option>
+        <option value="3">Select category3</option>
+        <option value="4">Select category4</option>
+      </select>
+      <div class="add-test__time-coin--wrapper"> <span> 
+          <lable class="add-test__time-lable" for="time">Time  <br/></lable>
+          <input class="add-test__time" type="text" id="time" placeholder="Enter time"/></span><br/><span> 
+          <lable class="add-test__coin-lable" for="coin">Coin <br/></lable>
+          <input class="add-test__coin" type="text" id="coin" placeholder="Enter coin"/></span></div>
+      <div class="add-test__par-value--wrapper1"> <span> 
+          <lable class="add-test__parametr-lable1" for="parametr">Parametr <br/></lable>
+          <input class="add-test__parametr1" type="text" id="parametr" placeholder="Enter  parametr"/></span><br/><span> 
+          <lable class="add-test__value--lable1" for="value">Value <br/></lable>
+          <input class="add-test__value1" type="text" id="value" placeholder="Enter value"/>
+          <p class="add-test__plus">+</p></span></div>
+      <div class="add-test__par-value--wrapper2"> <span> 
+          <lable class="add-test__parametr-lable2" for="parametr">Parametr <br/></lable>
+          <input class="add-test__parametr2" type="text" id="parametr" placeholder="Enter  parametr"/></span><br/><span> 
+          <lable class="add-test__value--lable2" for="value">Value <br/></lable>
+          <input class="add-test__value2" type="text" id="value" placeholder="Enter value"/><span class="add-test__plus-m--wrapper"> 
+            <p class="add-test__plus">+</p>
+            <p class="add-test__minus">-</p></span></span></div><br/>
+      <lable class="add-test__answer-lable" for="answer">Answer <br/></lable>
+      <input class="add-test__answer" type="text" id="answer" placeholder="Enter answer"/>
+      <div class="add-test__cancel-save--btn-wrapper"> 
+        <button class="add-test__cancel-btn">Cancel</button>
+        <button class="add-test__Save-btn">Save</button>
+      </div>
+    </form>
+  </div>
+</div>

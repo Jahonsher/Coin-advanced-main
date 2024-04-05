@@ -1,0 +1,100 @@
+.admin-message--wrapper{
+    padding-top: 70px;
+    margin-left: 32px;
+    position: fixed;
+    .admin-message{
+        overflow-y: scroll;
+        width: 1250px;
+        height: 610px;
+        .admin-message__heading{
+            font-size: 36px;
+            line-height: 46px;
+            color:#202020;
+        }
+
+        .admin-message__desc{
+            font-size: 14px;
+            color:#898989;
+            margin-top: -20px;
+        }
+
+        .message-heading{
+            font-size: 36px;
+            line-height: 46px;
+            color:#202020;
+            margin-top: 10px;
+            margin-bottom: 185px;
+        }
+
+        .admin-message__add-btn--filter-wrapper{
+            display: flex;
+            align-items: center;
+            gap: 360px;
+            margin-bottom: 60px;
+            margin-left: 67px;
+
+            .admin-message__filter--wrapper{
+                display: flex;
+                align-items:center;
+                gap: 25px;
+            }
+        }
+
+        .admin-message__list{
+            display: flex;
+            flex-direction: column;
+            gap:19px;
+            margin-left: 53px;
+
+            .admin-message__list__item{
+                width: 1048px;
+                height: 173px;
+                background-color: #fff;
+                padding-left:33px;
+
+                .admin-message__item--top{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-right: 10px;
+
+                    .admin-message__item__heading{
+                        font-size: 25px;
+                        line-height: 46px;
+                        color:$black;
+                    }
+
+                    .admin-message__item__group--time--wrapper {
+                        display: flex;
+                        align-items: center;
+                        gap: 11px;
+
+                        .admin-message__group-name{
+                            font-size: 18px;
+                            line-height: 46px;
+                            color:$black;
+                        }
+
+                        .admin-message__time{
+                            font-size: 18px;
+                            line-height: 46px;
+                            color: #00000081;
+                            font-weight:bold;
+                        }
+                    }
+                }
+
+                .admin-message__item__desc1{
+                    font-size: 18px;
+                    line-height: 46px;
+                    color: #00000081;
+                    font-weight:bold;
+                    margin-top: -20px;
+                }
+            }
+        }
+
+
+    }
+
+}

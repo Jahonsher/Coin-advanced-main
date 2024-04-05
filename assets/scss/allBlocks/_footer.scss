@@ -1,0 +1,20 @@
+.footer{
+    position: relative;
+    width: 100vw;
+    height: 41.4rem;
+    background-image: linear-gradient(#00000045, #000000BE);
+    .container{
+        .footer-bottom{
+            position: absolute;
+            width: 100vw;
+            font-size: 2.5rem;
+            font-weight: 400;
+            text-align: center;
+            bottom: 0;
+            color: #FFFFFFAB;
+            hr{
+                margin-bottom: 3rem;
+            }
+        }
+    }
+}

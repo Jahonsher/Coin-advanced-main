@@ -1,0 +1,195 @@
+section.overview 
+    .overview-header 
+        h1 Hi Admin Admina
+        span Welcome back to Coin system dashboard
+    //- CARDS START
+    ol.overview-card
+        li.card-item 
+            a.card-link(href="#") 
+                span.number 200
+                span.type Number of Student
+        li.card-item 
+            a.card-link(href="#") 
+                span.number 20
+                span.type Number of Teacher
+                img(src="../assets/images/icons/Training.svg", alt="Training icon")
+        li.card-item 
+            a.card-link(href="#") 
+                span.number 33.98%
+                span.type Monthly growth
+                .range 
+                    input(type="range" min=0 max=100 value=78)
+                    span.value 78%
+                img.range(src="../assets/images/icons/Shape.svg", alt="")
+        li.card-item 
+            a.card-link(href="#") 
+                span.number 8
+                span.type Number of Group
+                img.group(src="../assets/images/icons/group.svg", alt="")
+                
+    //- CHART vs TEACHER-TABLE
+    .chart-teacher-table 
+        .overview-chart 
+            h3 Total coin by courses
+            span.date Dec 2023
+            canvas(id="myChart")
+        .overview-teacher-table
+            h3 Top Teacher
+            a.dot(href="#")
+                i.fa-solid.fa-ellipsis 
+            table
+                thead 
+                    th No 
+                    th Full Name 
+                    th Group 
+                    th Exchange 
+                    th Student Number 
+                    th Rate
+                tbody 
+                    tr 
+                        td.no 1. 
+                        td.fullName-image 
+                            img(src="../assets/images/teacher-1.png", alt="Teacher")
+                            .fullName 
+                                span.name Mathilda Bell
+                                span.number 1200 c
+                        td.group JAVA 
+                        td.exchange 154
+                        td.student-number 56
+                        td.rate 100%
+                    tr 
+                        td.no 2. 
+                        td.fullName-image 
+                            img(src="../assets/images/teacher-2.png", alt="Teacher")
+                            .fullName 
+                                span.name Marion Figueroa
+                                span.number 1150 c
+                        td.group Front 
+                        td.exchange 148
+                        td.student-number 23
+                        td.rate 90%
+                    tr 
+                        td.no 3. 
+                        td.fullName-image 
+                            img(src="../assets/images/teacher-3.png", alt="Teacher")
+                            .fullName 
+                                span.name Lee Barrett
+                                span.number 1000 c
+                        td.group F-32	 
+                        td.exchange 126
+                        td.student-number 35
+                        td.rate 75%
+                    tr 
+                        td.no 4. 
+                        td.fullName-image 
+                            img(src="../assets/images/teacher-4.png", alt="Teacher")
+                            .fullName 
+                                span.name Joseph Brooks
+                                span.number 800 c
+                        td.group B-1 
+                        td.exchange 110
+                        td.student-number 40
+                        td.rate 60%
+    //- STUDENT TABLE START
+    .overview-student-table-group
+        .overview-student-table
+                h3 Top Student
+                a.dot(href="#")
+                    i.fa-solid.fa-ellipsis 
+                table
+                    thead 
+                        th No 
+                        th Full Name 
+                        th Group 
+                        th Exchange 
+                        th Tasks 
+                        th Rate
+                    tbody 
+                        tr 
+                            td.no 1. 
+                            td.fullName-image 
+                                img(src="../assets/images/teacher-1.png", alt="Teacher")
+                                .fullName 
+                                    span.name Mathilda Bell
+                                    span.number 1200 c
+                            td.group JAVA 
+                            td.exchange 154
+                            td.tasks 28 Tasks Done
+                            td.rate 
+                                .progress-bar 
+                                .progress-value 100%
+                        tr 
+                            td.no 2. 
+                            td.fullName-image 
+                                img(src="../assets/images/teacher-2.png", alt="Teacher")
+                                .fullName 
+                                    span.name Marion Figueroa
+                                    span.number 1150 c
+                            td.group Front 
+                            td.exchange 148
+                            td.tasks 21 Tasks Done
+                            td.rate 
+                                .progress-bar 
+                                .progress-value 90%
+                        tr 
+                            td.no 3. 
+                            td.fullName-image 
+                                img(src="../assets/images/teacher-3.png", alt="Teacher")
+                                .fullName 
+                                    span.name Lee Barrett
+                                    span.number 1000 c
+                            td.group F-32	 
+                            td.exchange 126
+                            td.tasks 10 Tasks Done
+                            td.rate 
+                                .progress-bar 
+                                .progress-value 75%
+                        tr 
+                            td.no 4. 
+                            td.fullName-image 
+                                img(src="../assets/images/teacher-4.png", alt="Teacher")
+                                .fullName 
+                                    span.name Joseph Brooks
+                                    span.number 800 c
+                            td.group B-1 
+                            td.exchange 110
+                            td.tasks 9 Tasks Done
+                            td.rate
+                                .progress-bar 
+                                .progress-value 60%
+        //-OVERVIEW GROUP
+        .overview-group 
+            h3 Top Group
+            a.dot(href="#")
+                i.fa-solid.fa-ellipsis
+            ol.linear-progress-bar-list 
+                li.list-item
+                    .desc 
+                        .group-name F-1
+                        .progress-bar-value 93%
+                    .linear-progress-bar 
+                li.list-item
+                    .desc 
+                        .group-name G-1
+                        .progress-bar-value 89%
+                    .linear-progress-bar
+                li.list-item
+                    .desc 
+                        .group-name B-4
+                        .progress-bar-value 89%
+                    .linear-progress-bar
+                li.list-item
+                    .desc 
+                        .group-name f-5
+                        .progress-bar-value 80%
+                    .linear-progress-bar
+                    
+                    
+
+                            
+
+
+
+
+
+

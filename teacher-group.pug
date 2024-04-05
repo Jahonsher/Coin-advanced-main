@@ -1,0 +1,81 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        //- CSS LINK
+        link(rel="stylesheet", href="../assets/css/main.css")
+        //- ICONS LINK
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css")
+        //- JS LINK
+        script(src="../assets/js/script.js") 
+        title Group
+    body 
+        main.dashboard-main 
+            //- SIDEBAR START
+            section.sidebar-section
+                a(href="#").dashboard
+                    i.fa-solid.fa-bars
+                    .logo 
+                        img(src="../assets/images/icons/Logo.svg", alt="Logo")
+                        span coin 
+                ol.nav-list 
+                    li.nav-item
+                        a(href="../html/dashboard.html") 
+                            i.fa-solid.fa-table
+                            span Overview
+                    li.nav-item 
+                        a(href="../html/teacher-category.html") 
+                            i.fa-solid.fa-layer-group
+                            span Category
+                    li.nav-item.active
+                        a(href="#").dropdown 
+                            i.fa-solid.fa-briefcase
+                            span Group
+                    li.nav-item 
+                        a(href="#") 
+                            i.fa-solid.fa-user
+                            span Student    
+                    li.nav-item 
+                        a(href="../html/admin-gift-s.html").dropdown 
+                            i.fa-solid.fa-gift
+                            span Gift
+                        
+                    li.nav-item 
+                        a(href="#") 
+                            i.fa-solid.fa-calendar
+                            span Exchange
+                    li.nav-item
+                        a(href="#") 
+                            i.fa-solid.fa-envelope
+                            span Message
+                        span.message 8
+                    li.nav-item 
+                        a(href="#") 
+                            i.fa-solid.fa-file
+                            span Documents
+            //- MAIN START
+            section.section-right-main
+                //- NAVBAR START
+                nav.navbar
+                    .search 
+                        form(action="/" method="GET") 
+                            label(for="search")
+                                i.fa-solid.fa-magnifying-glass
+                            input(type="search" id="search" placeholder="Search…")
+                    .profile-question 
+                        a(href="#").question ?
+                        a.bell.active(href="#") 
+                            i.fa-solid.fa-bell.active
+                        a(href="#").profile 
+                            img(src="../assets/images/admina.png", alt="Admin")
+                            .name-job 
+                                span.name Admina 
+                                span.job Admin
+                //- GROUP START
+                include ./components/teacher-group-s.pug
+
+                 
+        script(type="text/javascript", src="https://www.gstatic.com/charts/loader.js")
+        script(src="./assets/js/script.js" type="text/javascript") 
+

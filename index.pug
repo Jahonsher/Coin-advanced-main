@@ -1,0 +1,30 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        //- CSS STYLE EXTERNAL
+        link(rel="stylesheet", href="../assets/css/main.css")
+        //- JS LINK
+        script(defer src="../assets/js/script.js") 
+        title COIN
+    body 
+        include ./components/header.pug
+        main.main 
+            .dashboard-img 
+                img(src="../assets/images/hero-img.png", alt="Dashboard image")
+                img(src="../assets/images/hero-little-image.png", alt="Dashboard little image")
+            section.download-app 
+                .description 
+                    h2 Download now mobile app
+                    p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                    .btns 
+                        .play-market.btn 
+                            img(src="../assets/images/icons/simple-icons_googleplay.svg", alt="Play Market")
+                            span Google Play
+                        .play-market.btn 
+                            img(src="../assets/images/icons/bi_apple.svg", alt="App Store")
+                            span App Store
+                .phone-img  
+                    img(src="../assets/images/phone.png", alt="Phone image")
+        include ./components/footer.pug

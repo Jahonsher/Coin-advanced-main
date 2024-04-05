@@ -1,0 +1,26 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        //- CSS LINK
+        link(rel="stylesheet", href="../assets/css/main.css")
+        //- JS LINK
+        script(defer src="../assets/js/script.js") 
+        title Sign In
+    body 
+        .sign-in-container 
+            .row 
+                h1 Edu Coin System
+                .sign-in
+                    h4 Sign in
+                    form(action="../html/dashboard.html") 
+                        label(for="login") Username
+                        input(type="text", name="username", id='login' placeholder="Enter username") 
+                        label(for="pass") Password
+                        .pass 
+                            input(type="password", name="password", id='pass' placeholder="Enter password")
+                            a(href="#") 
+                                img(src="../assets/images/icons/outline_eyes.svg", alt="icon eyes")
+                        a.forget-link(href="#") Forget password?
+                        input.btn(type="submit", value="Sign in")  

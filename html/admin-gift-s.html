@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" type="text/javascript"></script>
+    <script defer src="../assets/js/script.js"> </script>
+    <title>Admin gift</title>
+  </head>
+  <body> 
+    <main class="dashboard-main"> 
+      <section class="sidebar-section"><a class="dashboard" href="#"><i class="fa-solid fa-bars"></i>
+          <div class="logo"> <img src="../assets/images/icons/Logo.svg" alt="Logo"><span>coin </span></div></a>
+        <ol class="nav-list"> 
+          <li class="nav-item"><a href="/html/dashboard.html"> <i class="fa-solid fa-table"></i><span>Overview</span></a></li>
+          <li class="nav-item"> <a href="../html/teacher-category.html"> <i class="fa-solid fa-layer-group"></i><span>Category</span></a></li>
+          <li class="nav-item"><a class="dropdown" href="../html/teacher-group.html"> <i class="fa-solid fa-briefcase"></i><span>Group</span></a></li>
+          <li class="nav-item"> <a href="#"> <i class="fa-solid fa-user"></i><span>Student    </span></a></li>
+          <li class="nav-item active"> <a class="dropdown" href="../html/admin-gift-s.html"> <i class="fa-solid fa-gift"></i><span>Gift</span></a></li>
+          <li class="nav-item"> <a href="../html/admin-message.html"> <i class="fa-solid fa-calendar"></i><span>Exchange</span></a></li>
+          <li class="nav-item"><a href="#"> <i class="fa-solid fa-envelope"></i><span>Message</span></a><span class="message">8</span></li>
+          <li class="nav-item"> <a href="#"> <i class="fa-solid fa-file"></i><span>Documents</span></a></li>
+        </ol>
+      </section>
+      <section class="section-right-main">
+        <nav class="navbar">
+          <div class="search"> 
+            <form action="/"> 
+              <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+              <input type="search" id="search" placeholder="Search…">
+            </form>
+          </div>
+          <div class="profile-question"> <a class="question" href="#">?</a><a class="bell active" href="#"> <i class="fa-solid fa-bell active"></i></a><a class="profile" href="#"> <img src="../assets/images/admina.png" alt="Admin">
+              <div class="name-job"> <span class="name">Admina </span><span class="job">Admin</span></div></a></div>
+        </nav>
+        <div class="gift-info-wrapper">
+          <div class="gift-info"> 
+            <div class="gift-info-top"> <img class="gift-info-profil-img" src="../assets/images/gift-info__profil-img.png" alt="rasm">
+              <h1 class="gift-info-heading">Javokhir Koziboyev</h1>
+              <p class="gift-info-group-name">Java-group</p><img class="gift-info__close-icon" onclick="closeBtn()" src="../assets/images/icons/ph_x-bold.svg" alt="icon">
+            </div>
+            <div class="gift-info-main"> 
+              <div class="gift-info-main--left"><img class="gift-infomain--left__img" src="../assets/images/gift-info-main__img.png" alt="rasm"></div>
+              <div class="gift-info-main--right">
+                <h3 class="gift-info-main--right__heading">Air-pods   50 c</h3>
+                <p class="gift-info-main--right__date-time">11:25:30 11.12.2023</p>
+                <div class="gift-info-main--right__checkbox--wrapper"> 
+                  <input class="gift-info__checkbox" type="checkbox" id="info-check">
+                  <label class="gift-info__checkbox--lable" for="info-check">Berildi...</label><br>
+                </div>
+                <button class="gift-info__close-btn" onclick="closeBtn()">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gift-section-right-main--body"> 
+          <h1 class="teacher-gift__heading">Hi Admin Admina</h1>
+          <p class="teacher-gift__welcome--desc">Welcome back to Coin system group</p>
+          <h2 class="gift--heading">Gift</h2>
+          <div class="gift-search--wrapper">
+            <button class="add-btn" onclick="addTestOpenModal()">+Add</button>
+            <form class="search-input--wrapper" action="search"> 
+              <input class="teacher-category--main__search--input" type="text" placeholder="Search..."><img src="../assets/images/icons/bi_search.svg" alt="rasm">
+            </form>
+          </div>
+          <ol class="teacher-gift__list"> 
+            <li class="teacher-gift__list__item"> <a href="#"><img class="teacher-gift__item__img" src="../assets/images/teacher-gift__list-img.png" alt="rasm"></a>
+              <h2 class="teacher-gift__item__heading">Gift Name</h2>
+              <p class="teacher-gift__item__desc1">150 C</p>
+              <p class="teacher-gift__item__desc2">Description</p>
+              <button class="teacher-gift__item__btn" onclick="openModal()">Exchange</button>
+            </li>
+            <li class="teacher-gift__list__item"> <a href="#"><img class="teacher-gift__item__img" src="../assets/images/teacher-gift__list-img.png" alt="rasm"></a>
+              <h2 class="teacher-gift__item__heading">Gift Name</h2>
+              <p class="teacher-gift__item__desc1">150 C</p>
+              <p class="teacher-gift__item__desc2">Description</p>
+              <button class="teacher-gift__item__btn" onclick="openModal()">Exchange</button>
+            </li>
+            <li class="teacher-gift__list__item"> <a href="#"><img class="teacher-gift__item__img" src="../assets/images/teacher-gift__list-img.png" alt="rasm"></a>
+              <h2 class="teacher-gift__item__heading">Gift Name</h2>
+              <p class="teacher-gift__item__desc1">150 C</p>
+              <p class="teacher-gift__item__desc2">Description</p>
+              <button class="teacher-gift__item__btn" onclick="openModal()">Exchange</button>
+            </li>
+            <li class="teacher-gift__list__item"> <a href="#"><img class="teacher-gift__item__img" src="../assets/images/teacher-gift__list-img.png" alt="rasm"></a>
+              <h2 class="teacher-gift__item__heading">Gift Name</h2>
+              <p class="teacher-gift__item__desc1">150 C</p>
+              <p class="teacher-gift__item__desc2">Description</p>
+              <button class="teacher-gift__item__btn" onclick="openModal()">Exchange</button>
+            </li>
+            <li class="teacher-gift__list__item"> <a href="#"><img class="teacher-gift__item__img" src="../assets/images/teacher-gift__list-img.png" alt="rasm"></a>
+              <h2 class="teacher-gift__item__heading">Gift Name</h2>
+              <p class="teacher-gift__item__desc1">150 C</p>
+              <p class="teacher-gift__item__desc2">Description</p>
+              <button class="teacher-gift__item__btn" onclick="openModal()">Exchange</button>
+            </li>
+            <li class="teacher-gift__list__item"> <a href="#"><img class="teacher-gift__item__img" src="../assets/images/teacher-gift__list-img.png" alt="rasm"></a>
+              <h2 class="teacher-gift__item__heading">Gift Name</h2>
+              <p class="teacher-gift__item__desc1">150 C</p>
+              <p class="teacher-gift__item__desc2">Description</p>
+              <button class="teacher-gift__item__btn" onclick="openModal()">Exchange</button>
+            </li>
+          </ol>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

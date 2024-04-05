@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" type="text/javascript"></script>
+    <script defer src="../assets/js/script.js"> </script>
+    <title>Admin message</title>
+  </head>
+  <body> 
+    <main class="dashboard-main"> 
+      <section class="sidebar-section"><a class="dashboard" href="#"><i class="fa-solid fa-bars"></i>
+          <div class="logo"> <img src="../assets/images/icons/Logo.svg" alt="Logo"><span>coin </span></div></a>
+        <ol class="nav-list"> 
+          <li class="nav-item"><a href="/html/dashboard.html"> <i class="fa-solid fa-table"></i><span>Overview</span></a></li>
+          <li class="nav-item"> <a href="../html/teacher-category.html"> <i class="fa-solid fa-layer-group"></i><span>Category</span></a></li>
+          <li class="nav-item"><a class="dropdown" href="../html/teacher-group.html"> <i class="fa-solid fa-briefcase"></i><span>Group</span></a></li>
+          <li class="nav-item"> <a href="#"> <i class="fa-solid fa-user"></i><span>Student    </span></a></li>
+          <li class="nav-item"> <a class="dropdown" href="../html/admin-gift-s.html"> <i class="fa-solid fa-gift"></i><span>Gift</span></a></li>
+          <li class="nav-item active"> <a href="#"> <i class="fa-solid fa-calendar"></i><span>Exchange</span></a></li>
+          <li class="nav-item"><a href="#"> <i class="fa-solid fa-envelope"></i><span>Message</span></a><span class="message">8</span></li>
+          <li class="nav-item"> <a href="#"> <i class="fa-solid fa-file"></i><span>Documents</span></a></li>
+        </ol>
+      </section>
+      <section class="section-right-main">
+        <nav class="navbar">
+          <div class="search"> 
+            <form action="/"> 
+              <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+              <input type="search" id="search" placeholder="Search…">
+            </form>
+          </div>
+          <div class="profile-question"> <a class="question" href="#">?</a><a class="bell active" href="#"> <i class="fa-solid fa-bell active"></i></a><a class="profile" href="#"> <img src="../assets/images/admina.png" alt="Admin">
+              <div class="name-job"> <span class="name">Admina </span><span class="job">Admin</span></div></a></div>
+        </nav>
+        <div class="admin-message--wrapper"> 
+          <div class="admin-message"> 
+            <h1 class="admin-message__heading">Hi Admin Admina</h1>
+            <p class="admin-message__desc">Welcome back to Coin system group</p>
+            <h2 class="message-heading">Message</h2>
+            <div class="admin-message__add-btn--filter-wrapper"> 
+              <button class="admin-message__add-btn">+Add</button>
+              <div class="admin-message__filter--wrapper"> 
+                <button class="admin-m__group-filter">Group...</button>
+                <button class="admin-m__from-date-filter">from  date...</button>
+                <button class="admin-m__to-date-filter">to  date...</button>
+              </div>
+            </div>
+            <div class="admin-message__main-message-carts"> 
+              <ol class="admin-message__list"> 
+                <li class="admin-message__list__item"> <span class="admin-message__item--top"> 
+                    <h3 class="admin-message__item__heading">What is Lorem Ipsum?</h3><span class="admin-message__item__group--time--wrapper"> 
+                      <h4 class="admin-message__group-name">Group Name</h4>
+                      <p class="admin-message__time">11.12.2023 15:00 </p></span></span>
+                  <p class="admin-message__item__desc1">typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release <br> of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop</p>
+                </li>
+                <li class="admin-message__list__item"> <span class="admin-message__item--top"> 
+                    <h3 class="admin-message__item__heading">What is Lorem Ipsum?</h3><span class="admin-message__item__group--time--wrapper"> 
+                      <h4 class="admin-message__group-name">Group Name</h4>
+                      <p class="admin-message__time">11.12.2023 15:00 </p></span></span>
+                  <p class="admin-message__item__desc1">typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release <br> of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop</p>
+                </li>
+                <li class="admin-message__list__item"> <span class="admin-message__item--top"> 
+                    <h3 class="admin-message__item__heading">What is Lorem Ipsum?</h3><span class="admin-message__item__group--time--wrapper"> 
+                      <h4 class="admin-message__group-name">Group Name</h4>
+                      <p class="admin-message__time">11.12.2023 15:00 </p></span></span>
+                  <p class="admin-message__item__desc1">typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release <br> of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop</p>
+                </li>
+                <li class="admin-message__list__item"> <span class="admin-message__item--top"> 
+                    <h3 class="admin-message__item__heading">What is Lorem Ipsum?</h3><span class="admin-message__item__group--time--wrapper"> 
+                      <h4 class="admin-message__group-name">Group Name</h4>
+                      <p class="admin-message__time">11.12.2023 15:00 </p></span></span>
+                  <p class="admin-message__item__desc1">typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release <br> of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop </p>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

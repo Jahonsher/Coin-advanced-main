@@ -1,0 +1,31 @@
+
+<section class="add-category">
+  <div class="add-category-form"> 
+    <h3>Add Category</h3><a class="close" href="#" onclick="addTestCloseBtn()"><i class="fa-solid fa-xmark"> </i></a>
+    <form action="">    
+      <label for="name">Category name </label>
+      <input type="text" name="category-name" id="name" placeholder="Enter category name"/>
+      <label for="type">Category programming language</label>
+      <input type="text" name="category-pro-lang" id="type" placeholder="Enter category p. language"/>
+      <label for="name">Select parent Category </label>
+      <select id="category-group" name="select-category"> 
+        <option class="selected" value="#">Select category</option>
+        <option value="#">Frontend </option>
+        <option value="#">Backend </option>
+        <option value="#">Java </option>
+      </select>
+      <div class="input-file"> 
+        <input class="real-file" type="file" id="file"/>
+        <button class="custom-file" type="button">Choose file</button><span class="custom-text">No file choosen, yet.</span>
+      </div>
+      <div class="input-active"> 
+        <input type="checkbox" id="input-active" name="active"/>
+        <label for="input-active">Active </label>
+      </div>
+      <div class="buttons-category"> 
+        <button class="cancel" type="button">cancel </button>
+        <button class="save" type="submit">save </button>
+      </div>
+    </form>
+  </div>
+</section>

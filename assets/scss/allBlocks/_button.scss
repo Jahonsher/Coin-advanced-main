@@ -1,0 +1,127 @@
+$add-btn-bg-color:#32c12f;
+$add-btn-color:#3e3660;
+$add-btn-width:200.03px;
+$add-btn-height:45px;
+$add-btn-border:none;
+$add-btn-font-size:20px;
+$add-btn-b-radius:10px;
+
+$add-edit-delete-btn-font-w: bold;
+
+
+$edit-btn-width:70px;
+$edit-btn-height:35px;
+$edit-btn-bg-color:#f3ce70;
+$edit-btn-b-radius:10px;
+$edit-btn-border:none;
+$edit-btn-color:#3e3660;
+$edit-btn-font-size:16px;
+
+
+$delete-btn-width:70px;
+$delete-btn-height:35px;
+$delete-btn-bg-color:#f35858;
+$delete-btn-color:#3e3660;
+$delete-btn-border:none;
+$delete-btn-b-radius:10px;
+$delete-btn-font-size:16px;
+
+
+.add-btn{
+    width: $add-btn-width;
+    height: $add-btn-height;
+    border-radius: $add-btn-b-radius;
+    border: $add-btn-border;
+    background-color: $add-btn-bg-color;
+    color:$add-btn-color;
+    font-size: $add-btn-font-size;
+    font-weight: $add-edit-delete-btn-font-w;
+}
+
+.edit-btn{
+    width: $edit-btn-width;
+    height: $edit-btn-height;
+    border-radius:$edit-btn-b-radius;
+    border:$edit-btn-border;
+    background-color: $edit-btn-bg-color;
+    color:$edit-btn-color;
+    font-size: $edit-btn-font-size;
+    $add-edit-delete-btn-font-w: bold;
+}
+
+.delete-btn{
+    width: $delete-btn-width;
+    height: $delete-btn-height;
+    background-color: $delete-btn-bg-color;
+    color:$delete-btn-color;
+    font-size: $delete-btn-font-size;
+    border:$delete-btn-border;
+    border-radius:$delete-btn-b-radius;
+    $add-edit-delete-btn-font-w: bold;
+}
+
+.teacher-gift__item__btn{
+    width: 117px;
+    height: 32px;
+    border-radius:10px;
+    background-color: #8c7dc9;
+    border:none;
+    font-size: 18px;
+    color:#fff;
+    display: block;
+    margin: 0 auto;
+}
+
+.gift-info__close-btn{
+    margin-left: 301px;
+    width: 138px;
+    height: 48px;
+    background-color: #85b6ff;
+    border-radius:10px;
+    border:none;
+    font-size: 26px;
+    color:#fff;
+}
+
+.add-test__cancel-btn{
+    width: 134px;
+    height: 45px;
+    border-radius:10px;
+    background-color: #23c0ca;
+    border:none;
+    font-size: 20px;
+    color:#3e3660;
+    font-weight: bold;
+}
+
+.add-test__Save-btn{
+    width: 134px;
+    height: 45px;
+    border-radius:10px;
+    background-color: #32c12f;
+    border:none;
+    font-size: 20px;
+    color:#3e3660;
+    font-weight: bold;
+}
+
+.admin-message__add-btn{
+    width: 109px;
+    height: 52px;
+    border-radius: 10px;
+    background-color: #31a20c;
+    border: none;
+    font-size: 25px;
+    color:$black;
+    font-weight: bold;
+}
+
+.admin-m__group-filter, .admin-m__from-date-filter,.admin-m__to-date-filter{
+    width: 133px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: none;
+    font-size: 16px;
+    color:$black;
+}

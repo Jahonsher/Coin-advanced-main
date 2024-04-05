@@ -1,0 +1,60 @@
+.add-test--wrapper 
+                    .add-test 
+                        h1.add-test__heading Add Test
+                        img.add-test__close-btn(onclick="addTestCloseBtn()" src="../assets/images/icons/add-test__close-icon.svg", alt="icon")
+                        form(action="test")
+                            lable.add-test__question-label(for="question") Question #[br]
+                            input.add-test__question(type="text" id="question" placeholder="Enter Question...")
+                            br
+
+                            lable.add-test__advice-label(for="advice") Advice #[br]
+                            input.add-test__advice(type="text" id="advice" placeholder="Enter Advice...")
+                            br
+                            lable.add-test__select-lable(for="select") Select  Category #[br]
+                            select(name="test-select").add-test__select 
+                                option(value="1") Select category 
+                                option(value="2") Select category2
+                                option(value="3") Select category3
+                                option(value="4") Select category4
+
+                            .add-test__time-coin--wrapper 
+                                span 
+                                    lable.add-test__time-lable(for="time") Time  #[br]
+                                    input.add-test__time(type="text" id="time" placeholder="Enter time")
+                                br
+                                span 
+                                    lable.add-test__coin-lable(for="coin") Coin #[br]
+                                    input.add-test__coin(type="text" id="coin" placeholder="Enter coin")
+
+                            .add-test__par-value--wrapper1 
+                                span 
+                                    lable.add-test__parametr-lable1(for="parametr") Parametr #[br]
+                                    input.add-test__parametr1(type="text" id="parametr" placeholder="Enter  parametr")
+                                br
+                                span 
+                                    lable.add-test__value--lable1(for="value") Value #[br]
+                                    input.add-test__value1(type="text" id="value" placeholder="Enter value")
+                                    p.add-test__plus +
+
+
+                            .add-test__par-value--wrapper2 
+                                span 
+                                    lable.add-test__parametr-lable2(for="parametr") Parametr #[br]
+                                    input.add-test__parametr2(type="text" id="parametr" placeholder="Enter  parametr")
+                                br
+                                span 
+                                    lable.add-test__value--lable2(for="value") Value #[br]
+                                    input.add-test__value2(type="text" id="value" placeholder="Enter value")
+                                    span.add-test__plus-m--wrapper 
+                                        p.add-test__plus +
+                                        p.add-test__minus -
+
+                            br
+
+                            lable.add-test__answer-lable(for="answer") Answer #[br]
+                            input.add-test__answer(type="text" id="answer" placeholder="Enter answer")
+
+                            .add-test__cancel-save--btn-wrapper 
+                                button.add-test__cancel-btn Cancel
+                                button.add-test__Save-btn Save
+

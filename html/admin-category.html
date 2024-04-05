@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script defer src="../assets/js/script.js"> </script>
+    <title>Category</title>
+  </head>
+  <body> 
+    <main class="dashboard-main"> 
+      <section class="sidebar-section"><a class="dashboard" href="#"><i class="fa-solid fa-bars"></i>
+          <div class="logo"> <img src="../assets/images/icons/Logo.svg" alt="Logo"><span>coin </span></div></a>
+        <ol class="nav-list"> 
+          <li class="nav-item"><a href="../html/dashboard.html"> <i class="fa-solid fa-table"></i><span>Overview</span></a></li>
+          <li class="nav-item active"> <a href="#"> <i class="fa-solid fa-layer-group"></i><span>Category</span></a></li>
+          <li class="nav-item"><a class="dropdown" href="../html/teacher-group.html"> <i class="fa-solid fa-briefcase"></i><span>Group</span></a></li>
+          <li class="nav-item"> <a href="#"> <i class="fa-solid fa-user"></i><span>Student    </span></a></li>
+          <li class="nav-item"> <a class="dropdown" href="../html/teacher-gift.html"> <i class="fa-solid fa-gift"></i><span>Gift</span></a></li>
+          <li class="nav-item"> <a href="#"> <i class="fa-solid fa-calendar"></i><span>Exchange</span></a></li>
+          <li class="nav-item"><a href="#"> <i class="fa-solid fa-envelope"></i><span>Message</span></a><span class="message">8</span></li>
+          <li class="nav-item"> <a href="#"> <i class="fa-solid fa-file"></i><span>Documents</span></a></li>
+        </ol>
+      </section>
+      <section class="section-right-main-category">
+        <nav class="navbar">
+          <div class="search"> 
+            <form action="/" method="GET"> 
+              <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+              <input type="search" id="search" placeholder="Search…">
+            </form>
+          </div>
+          <div class="profile-question"> <a class="question" href="#">?</a><a class="bell active" href="#"> <i class="fa-solid fa-bell active"></i></a><a class="profile" href="#"> <img src="../assets/images/admina.png" alt="Admin">
+              <div class="name-job"> <span class="name">Admina </span><span class="job">Admin</span></div></a></div>
+        </nav>
+        <div class="section-right-main--body"> 
+          <h1 class="teacher-category__heading">Hi Admin Admina</h1>
+          <p class="teacher-category__welcome--desc">Welcome back to Coin system dashboard</p>
+          <div class="add-btn--search-input-wrapper"> 
+            <button class="add-btn" onclick="addTestOpenModal()">+Add</button>
+            <form class="search-input--wrapper" action="search"> 
+              <input class="teacher-category--main__search--input" type="text" placeholder="Search..."><img src="../assets/images/icons/bi_search.svg" alt="rasm">
+            </form>
+          </div>
+          <h2 class="category--heading">Category</h2>
+          <table class="category-table"> 
+            <tr class="category-table-row"> 
+              <th class="category-table-head">№</th>
+              <th class="category-table-head">Photo</th>
+              <th class="category-table-head">Name</th>
+              <th class="category-table-head">Describtion</th>
+              <th class="category-table-head">P.L</th>
+              <th class="category-table-head">Active</th>
+              <th class="category-table-head">Action</th>
+            </tr>
+            <tr class="category-table-row"> 
+              <td class="category-table-data">1</td>
+              <td class="category-table-data"><img src="../assets/images/Ellipse 3.svg" alt="rasm"></td>
+              <td class="category-table-data">Front-Ent</td>
+              <td class="category-table-data">Tashqi qism  </td>
+              <td class="category-table-data">React</td>
+              <td class="category-table-data category-table-data-active">
+                <input type="checkbox">
+              </td>
+              <td class="category-table-data category-table-data-end"> 
+                <button class="edit-btn">Edit</button>
+                <button class="delete-btn">Delete</button>
+              </td>
+            </tr>
+            <tr class="category-table-row"> 
+              <td class="category-table-data">2</td>
+              <td class="category-table-data"><img src="../assets/images/Ellipse 3.svg" alt="rasm"></td>
+              <td class="category-table-data">Back-End</td>
+              <td class="category-table-data">Orqa qism </td>
+              <td class="category-table-data">Java</td>
+              <td class="category-table-data category-table-data-active">
+                <input type="checkbox">
+              </td>
+              <td class="category-table-data category-table-data-end"> 
+                <button class="edit-btn">Edit</button>
+                <button class="delete-btn">Delete</button>
+              </td>
+            </tr>
+            <tr class="category-table-row"> 
+              <td class="category-table-data">3</td>
+              <td class="category-table-data"><img src="../assets/images/Ellipse 3.svg" alt="rasm"></td>
+              <td class="category-table-data">Foudnation</td>
+              <td class="category-table-data">Boshlangich </td>
+              <td class="category-table-data">C++</td>
+              <td class="category-table-data category-table-data-active">
+                <input type="checkbox">
+              </td>
+              <td class="category-table-data category-table-data-end"> 
+                <button class="edit-btn">Edit</button>
+                <button class="delete-btn">Delete</button>
+              </td>
+            </tr>
+            <tr class="category-table-row"> 
+              <td class="category-table-data">4</td>
+              <td class="category-table-data"><img src="../assets/images/Ellipse 3.svg" alt="rasm"></td>
+              <td class="category-table-data">3D-max</td>
+              <td class="category-table-data">Design </td>
+              <td class="category-table-data">Adobe</td>
+              <td class="category-table-data category-table-data-active">
+                <input type="checkbox">
+              </td>
+              <td class="category-table-data category-table-data-end"> 
+                <button class="edit-btn">Edit</button>
+                <button class="delete-btn">Delete</button>
+              </td>
+            </tr>
+            <tr class="category-table-row"> 
+              <td class="category-table-data">5</td>
+              <td class="category-table-data"><img src="../assets/images/Ellipse 3.svg" alt="rasm"></td>
+              <td class="category-table-data">Front-Ent</td>
+              <td class="category-table-data">Tashqi qism  </td>
+              <td class="category-table-data">JavaScript</td>
+              <td class="category-table-data category-table-data-active">
+                <input type="checkbox">
+              </td>
+              <td class="category-table-data category-table-data-end"> 
+                <button class="edit-btn">Edit</button>
+                <button class="delete-btn">Delete</button>
+              </td>
+            </tr>
+            <tr class="category-table-row"> 
+              <td class="category-table-data">6</td>
+              <td class="category-table-data"><img src="../assets/images/Ellipse 3.svg" alt="rasm"></td>
+              <td class="category-table-data">Front-Ent</td>
+              <td class="category-table-data">Tashqi qism  </td>
+              <td class="category-table-data">JavaScript</td>
+              <td class="category-table-data category-table-data-active">
+                <input type="checkbox">
+              </td>
+              <td class="category-table-data category-table-data-end"> 
+                <button class="edit-btn">Edit</button>
+                <button class="delete-btn">Delete</button>
+              </td>
+            </tr>
+            <tr class="category-table-row"> 
+              <td class="category-table-data">7</td>
+              <td class="category-table-data"><img src="../assets/images/Ellipse 3.svg" alt="rasm"></td>
+              <td class="category-table-data">Front-Ent</td>
+              <td class="category-table-data">Tashqi qism  </td>
+              <td class="category-table-data">JavaScript</td>
+              <td class="category-table-data category-table-data-active">
+                <input type="checkbox">
+              </td>
+              <td class="category-table-data category-table-data-end"> 
+                <button class="edit-btn">Edit</button>
+                <button class="delete-btn">Delete</button>
+              </td>
+            </tr>
+            <tr class="category-table-row">
+              <td class="category-table-data"></td>
+            </tr>
+          </table>
+        </div>
+        <section class="add-category">
+          <div class="add-category-form"> 
+            <h3>Add Category</h3><a class="close" href="#" onclick="addTestCloseBtn()"><i class="fa-solid fa-xmark"> </i></a>
+            <form action="">    
+              <label for="name">Category name </label>
+              <input type="text" name="category-name" id="name" placeholder="Enter category name">
+              <label for="type">Category programming language</label>
+              <input type="text" name="category-pro-lang" id="type" placeholder="Enter category p. language">
+              <label for="name">Select parent Category </label>
+              <select id="category-group" name="select-category"> 
+                <option class="selected" value="#">Select category</option>
+                <option value="#">Frontend </option>
+                <option value="#">Backend </option>
+                <option value="#">Java </option>
+              </select>
+              <div class="input-file"> 
+                <input class="real-file" type="file" id="file">
+                <button class="custom-file" type="button">Choose file</button><span class="custom-text">No file choosen, yet.</span>
+              </div>
+              <div class="input-active"> 
+                <input type="checkbox" id="input-active" name="active">
+                <label for="input-active">Active </label>
+              </div>
+              <div class="buttons-category"> 
+                <button class="cancel" type="button">cancel </button>
+                <button class="save" type="submit">save </button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>

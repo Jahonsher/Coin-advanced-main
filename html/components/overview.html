@@ -1,0 +1,178 @@
+
+<section class="overview"> 
+  <div class="overview-header"> 
+    <h1>Hi Admin Admina</h1><span>Welcome back to Coin system dashboard</span>
+  </div>
+  <ol class="overview-card">
+    <li class="card-item"> <a class="card-link" href="#"> <span class="number">200</span><span class="type">Number of Student</span></a></li>
+    <li class="card-item"> <a class="card-link" href="#"> <span class="number">20</span><span class="type">Number of Teacher</span><img src="../assets/images/icons/Training.svg" alt="Training icon"/></a></li>
+    <li class="card-item"> <a class="card-link" href="#"> <span class="number">33.98%</span><span class="type">Monthly growth</span>
+        <div class="range"> 
+          <input type="range" min="0" max="100" value="78"/><span class="value">78%</span>
+        </div><img class="range" src="../assets/images/icons/Shape.svg" alt=""/></a></li>
+    <li class="card-item"> <a class="card-link" href="#"> <span class="number">8</span><span class="type">Number of Group</span><img class="group" src="../assets/images/icons/group.svg" alt=""/></a></li>
+  </ol>
+  <div class="chart-teacher-table"> 
+    <div class="overview-chart"> 
+      <h3>Total coin by courses</h3><span class="date">Dec 2023</span>
+      <canvas id="myChart"></canvas>
+    </div>
+    <div class="overview-teacher-table">
+      <h3>Top Teacher</h3><a class="dot" href="#"><i class="fa-solid fa-ellipsis"> </i></a>
+      <table>
+        <thead> 
+          <th>No </th>
+          <th>Full Name </th>
+          <th>Group </th>
+          <th>Exchange </th>
+          <th>Student Number </th>
+          <th>Rate</th>
+        </thead>
+        <tbody> 
+          <tr> 
+            <td class="no">1. </td>
+            <td class="fullName-image"> <img src="../assets/images/teacher-1.png" alt="Teacher"/>
+              <div class="fullName"> <span class="name">Mathilda Bell</span><span class="number">1200 c</span></div>
+            </td>
+            <td class="group">JAVA </td>
+            <td class="exchange">154</td>
+            <td class="student-number">56</td>
+            <td class="rate">100%</td>
+          </tr>
+          <tr> 
+            <td class="no">2. </td>
+            <td class="fullName-image"> <img src="../assets/images/teacher-2.png" alt="Teacher"/>
+              <div class="fullName"> <span class="name">Marion Figueroa</span><span class="number">1150 c</span></div>
+            </td>
+            <td class="group">Front </td>
+            <td class="exchange">148</td>
+            <td class="student-number">23</td>
+            <td class="rate">90%</td>
+          </tr>
+          <tr> 
+            <td class="no">3. </td>
+            <td class="fullName-image"> <img src="../assets/images/teacher-3.png" alt="Teacher"/>
+              <div class="fullName"> <span class="name">Lee Barrett</span><span class="number">1000 c</span></div>
+            </td>
+            <td class="group">F-32	 </td>
+            <td class="exchange">126</td>
+            <td class="student-number">35</td>
+            <td class="rate">75%</td>
+          </tr>
+          <tr> 
+            <td class="no">4. </td>
+            <td class="fullName-image"> <img src="../assets/images/teacher-4.png" alt="Teacher"/>
+              <div class="fullName"> <span class="name">Joseph Brooks</span><span class="number">800 c</span></div>
+            </td>
+            <td class="group">B-1 </td>
+            <td class="exchange">110</td>
+            <td class="student-number">40</td>
+            <td class="rate">60%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="overview-student-table-group">
+    <div class="overview-student-table">
+      <h3>Top Student</h3><a class="dot" href="#"><i class="fa-solid fa-ellipsis"> </i></a>
+      <table>
+        <thead> 
+          <th>No </th>
+          <th>Full Name </th>
+          <th>Group </th>
+          <th>Exchange </th>
+          <th>Tasks </th>
+          <th>Rate</th>
+        </thead>
+        <tbody> 
+          <tr> 
+            <td class="no">1. </td>
+            <td class="fullName-image"> <img src="../assets/images/teacher-1.png" alt="Teacher"/>
+              <div class="fullName"> <span class="name">Mathilda Bell</span><span class="number">1200 c</span></div>
+            </td>
+            <td class="group">JAVA </td>
+            <td class="exchange">154</td>
+            <td class="tasks">28 Tasks Done</td>
+            <td class="rate"> 
+              <div class="progress-bar"> </div>
+              <div class="progress-value">100%</div>
+            </td>
+          </tr>
+          <tr> 
+            <td class="no">2. </td>
+            <td class="fullName-image"> <img src="../assets/images/teacher-2.png" alt="Teacher"/>
+              <div class="fullName"> <span class="name">Marion Figueroa</span><span class="number">1150 c</span></div>
+            </td>
+            <td class="group">Front </td>
+            <td class="exchange">148</td>
+            <td class="tasks">21 Tasks Done</td>
+            <td class="rate"> 
+              <div class="progress-bar"> </div>
+              <div class="progress-value">90%</div>
+            </td>
+          </tr>
+          <tr> 
+            <td class="no">3. </td>
+            <td class="fullName-image"> <img src="../assets/images/teacher-3.png" alt="Teacher"/>
+              <div class="fullName"> <span class="name">Lee Barrett</span><span class="number">1000 c</span></div>
+            </td>
+            <td class="group">F-32	 </td>
+            <td class="exchange">126</td>
+            <td class="tasks">10 Tasks Done</td>
+            <td class="rate"> 
+              <div class="progress-bar"> </div>
+              <div class="progress-value">75%</div>
+            </td>
+          </tr>
+          <tr> 
+            <td class="no">4. </td>
+            <td class="fullName-image"> <img src="../assets/images/teacher-4.png" alt="Teacher"/>
+              <div class="fullName"> <span class="name">Joseph Brooks</span><span class="number">800 c</span></div>
+            </td>
+            <td class="group">B-1 </td>
+            <td class="exchange">110</td>
+            <td class="tasks">9 Tasks Done</td>
+            <td class="rate">
+              <div class="progress-bar"> </div>
+              <div class="progress-value">60%</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="overview-group"> 
+      <h3>Top Group</h3><a class="dot" href="#"><i class="fa-solid fa-ellipsis"></i></a>
+      <ol class="linear-progress-bar-list"> 
+        <li class="list-item">
+          <div class="desc"> 
+            <div class="group-name">F-1</div>
+            <div class="progress-bar-value">93%</div>
+          </div>
+          <div class="linear-progress-bar"> </div>
+        </li>
+        <li class="list-item">
+          <div class="desc"> 
+            <div class="group-name">G-1</div>
+            <div class="progress-bar-value">89%</div>
+          </div>
+          <div class="linear-progress-bar"></div>
+        </li>
+        <li class="list-item">
+          <div class="desc"> 
+            <div class="group-name">B-4</div>
+            <div class="progress-bar-value">89%</div>
+          </div>
+          <div class="linear-progress-bar"></div>
+        </li>
+        <li class="list-item">
+          <div class="desc"> 
+            <div class="group-name">f-5</div>
+            <div class="progress-bar-value">80%</div>
+          </div>
+          <div class="linear-progress-bar"></div>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>

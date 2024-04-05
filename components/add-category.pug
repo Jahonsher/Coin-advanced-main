@@ -1,0 +1,32 @@
+section.add-category
+    .add-category-form 
+        h3 Add Category
+        a.close(href="#" onclick="addTestCloseBtn()")
+            i.fa-solid.fa-xmark 
+        form(action="")     
+            label(for="name") Category name 
+            input(type="text" name="category-name" id="name" placeholder="Enter category name")
+
+            label(for="type") Category programming language
+            input(type="text" name="category-pro-lang" id="type" placeholder="Enter category p. language")
+
+            label(for="name") Select parent Category 
+            select#category-group(name="select-category") 
+                option.selected(value="#") Select category
+                option(value="#") Frontend 
+                option(value="#") Backend 
+                option(value="#") Java 
+            .input-file 
+                input.real-file(type="file" id="file")
+                button.custom-file(type="button") Choose file
+                span.custom-text No file choosen, yet.
+            .input-active 
+                input(type="checkbox" id="input-active" name="active") 
+                label(for="input-active") Active 
+            .buttons-category 
+                button.cancel(type="button") cancel 
+                button.save(type="submit") save 
+
+
+            
+    
